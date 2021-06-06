@@ -1,6 +1,10 @@
 package ex15;
 
 /*
+
+*  UCF COP3330 Summer 2021 Assignment 1 Solution
+*  Copyright 2021 Jeyler Zabala
+
 Exercise 15 - Password Validation
 Passwords are validated by comparing a user-provided value with a known value that’s stored.
 Either it’s correct or it’s not.
