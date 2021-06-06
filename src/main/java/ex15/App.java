@@ -18,6 +18,7 @@ Or
 
 What is the password? abc$123
 Welcome!
+
 Constraints
 Use an if/else statement for this problem.
 Make sure the program is case sensitive.
@@ -29,5 +30,23 @@ Then, when you prompt for the password,
 encrypt the password using Bcrypt and compare it with the value in your map.
 */
 
+import java.util.Scanner;
+
 public class App {
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+        System.out.print("What is the username? ");
+        String username = in.nextLine();
+
+        Scanner in2 = new Scanner(System.in);
+        System.out.print("What is the password? ");
+        String password = in.nextLine();
+
+        if (password.equals("abc$123")) {
+            System.out.println("Welcome!");
+        }
+        else {
+            System.out.println("I don't know you.");}
+    }
 }
