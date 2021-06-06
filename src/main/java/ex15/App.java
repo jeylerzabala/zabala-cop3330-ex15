@@ -43,7 +43,6 @@ public class App {
         System.out.print("What is the username? ");
         String username = in.nextLine();
 
-        Scanner in2 = new Scanner(System.in);
         System.out.print("What is the password? ");
         String password = in.nextLine();
 
